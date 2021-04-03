@@ -1,0 +1,43 @@
+@media only screen and (max-width:748px) {
+    .content {
+        padding: 20px;
+        margin-left: 0px;
+        display: block;
+        width: 100%;
+    }
+    .main {
+        margin: 75px 20px;
+    }
+    .form-group {
+        justify-content: center;
+    }
+    .btn-primary {
+        width: 100%;
+    }
+    .form-horizontal .form-group {
+        margin-right: -100px;
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .content {
+        padding: 20px;
+        margin-left: 0px;
+        display: block;
+        width: 100%;
+    }
+    .main {
+        margin: 75px 20px;
+    }
+    .form-group {
+        justify-content: center;
+    }
+    .btn-primary {
+        width: 100%;
+    }
+    .form-horizontal {
+        margin: 120px 0px;
+        width: 50%;
+    }
+}
